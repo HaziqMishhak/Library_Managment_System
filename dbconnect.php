@@ -3,7 +3,7 @@
 //server detail
 $servername = "localhost";
 $username = "libraryu_admin";
-$password = "Kafka!271101";
+$password = "";
 $dbname = "libraryu_final";
 
 // Create a connection
