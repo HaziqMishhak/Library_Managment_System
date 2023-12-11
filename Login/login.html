@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../assets/css/bar.css">
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'>
+  <link rel="stylesheet" href="../assets/css/login.css">
+  
+  <link href="../assets/img/favicon.ico" rel="icon">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+  <title>Library Management System</title>
+</head>
+
+<body>
+
+    <!-- Navbar header -->
+    <div>
+        <nav class="navbar navbar-dark navbar-expand-md" id="log-navbar" style="height: 101px;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo-uis-1080.png"
+                        style="height: 61px; padding: 1px;"></a>
+            </div>
+        </nav>
+    </div>
+
+    <div style="text-align: center;">
+      <h1 style="margin-top: 30px;">UIS Library Management System</h1>
+  </div>
+  
+  <div class="login-form">
+      <form method="post" action="login.php">
+          <h1>Login</h1>
+          <div class="content">
+              <div class="input-field">
+                  <input type="text" name="email" placeholder="Email" autocomplete="nope">
+              </div>
+              <div class="input-field">
+                  <input type="password" name="password" placeholder="Password" autocomplete="new-password">
+              </div>
+              <input type="hidden" name="login" value="1"> <!-- Add this line for the login check -->
+              <a class="link" onclick="alert('Please contact the Library Administration for this.'); return false;">Forgot Your Password?</a>
+          </div>
+          <div class="action">
+            <a href="register.html"><button type="button">Register</button></a>
+              <button>Login</button>
+          </div>
+      </form>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../assets/javascript/script.js"></script>
+
+  </body>
+  </html>
+  
+  
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Favicons -->
+    <link href="/assets/img/favicon.ico" rel="icon">
+    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Library</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/gradient-navbar.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <!--navbar header-->
+    <div>
+        <nav class="navbar navbar-dark navbar-expand-md" id="app-navbar" style="height: 101px;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="assets/img/logo-uis-1080.png" style="height: 61px; padding: 1px;"></a>
+                <a class="btn btn-primary border rounded-pill" role="button" style="color: rgb(254, 251, 251); 
+                background: rgb(63, 139, 252); height: 41px; margin: 0px; padding: 8px 12px; width: 112.2812px;" href="Login/login.html">Staff Login</a>
+            </div>
+        </nav>
+    </div>
+    <!--search-->
+    <div class="container text-center mt-5" style="margin-top: 150px !important;">
+        <h1 class="display-4">Check Your Borrow Book</h1>
+        <form id="search-form">
+            <div class="form-group mx-auto" style="max-width: 400px;">
+                <input class="form-control rounded-pill" type="text" id="search-input" style="margin-top: 20px !important" placeholder="Insert Matriks Number...">
+                <button type="button" id="search-button" class="btn btn-primary btn-block mt-3">Search</button>
+            </div>
+        </form>
+    
+        <!-- Placeholder for displaying search results in a table -->
+        <div id="search-results">
+            <!-- The search results table will be inserted here -->
+        </div>
+    </div>
+    
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/javascript/search.js"></script> <!-- Include your JavaScript file -->
+</body>
+
+
+</html>

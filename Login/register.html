@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/css/signup.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'>
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <title>Library Management System</title>
+</head>
+
+<body>
+    <!-- Navbar header -->
+    <div>
+        <nav class="navbar navbar-dark navbar-expand-md" id="log-navbar" style="height: 101px;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo-uis-1080.png"
+                        style="height: 61px; padding: 1px;"></a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="login-form">
+      <form method="post" action="register.php"> <!-- Changed action to signup.php for sign-up form -->
+          <h1>Sign Up</h1> <!-- Changed form title to Sign Up -->
+          <div class="content">
+              <div class="input-field">
+                  <input type="text" name="name" placeholder="Full Name" autocomplete="nope" required>
+              </div>
+              <div class="input-field">
+                  <input type="tel" name="phone" placeholder="Phone Number" autocomplete="nope" required>
+              </div>
+              <div class="input-field">
+                  <input type="email" name="email" placeholder="Email" autocomplete="nope" required>
+              </div>
+              <div class="input-field">
+                  <input type="password" name="password" placeholder="Password" autocomplete="new-password" required>
+              </div>
+              <input type="hidden" name="signup" value="1">
+          </div>
+
+          <div class="account-check">
+            Already have an account?<a href="login.html" class="login-link">Login here</a>
+        </div>
+
+        <!-- register button -->
+          <div class="action">
+              <button>Register</button>
+          </div>
+      </form>
+  </div>
+  
+  <script src="../assets/javascript/script.js"></script>
+</body>
+
+</html>
+
